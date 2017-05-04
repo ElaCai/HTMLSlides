@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SJTU Hackathon交大黑客松</title>
+
+		<meta name="description" content="SJTU Hackathon交大黑客松">
+		<meta name="author" content="Ela Cai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+	 <!--有道翻译API-->
+    <div id="YOUDAO_SELECTOR_WRAPPER" style="display:none; margin:0; border:0; padding:0; width:320px; height:240px;"></div>
+    <script type="text/javascript" src="http://fanyi.youdao.com/openapi.do?keyfrom=HTMLslides&key=412142669&type=selector&version=1.2&translate=on"
+    charset="utf-8"></script>  
+    <!--有道翻译API-->
+    
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides"  data-transition="fade" >
+				<section id="1">
+					<h3>SJTU Hackathon</h3>
+					交大黑客松
+					<p><small>
+					一些创意构想
+					Created by <a href="#">Ela Cai</a> / <a href="http://twitter.com/elacai"> @elacai</a>/ 
+					<a href="https://github.com/ElaCai"> ElaCai on Github</a></small>
+					
+					</p>
+				</section>
+
+           <section id="overview">	
+					<h3>如何确定项目创意</h3>
+					
+			<ol>			
+				<li><h6>找到生活学习中的某个痛点（最好跟社会热点有一些关系）</h6></li>
+				<li><h6>运用某个新技术热点（云，物联网，移动，社交，大数据，人工智能，serverless，docker, blockchain，DevOps…）</h6></li>
+				<li><h6>结合自己的某个优势（前端，后端，算法，android／ios，UI／UX…）</h6></li>
+				
+				</ol>
+									
+				</section>
+					
+           <section id="idea1">	
+					<h3>创意1:支持全移动端的新一代课件系统</h3>
+					<h6>分析一下</h6>
+	                <ul>
+						<li>痛点：教室太大，屏幕太小，我看不清ppt啊</li>
+						<li>愿望：在我的pad／andoid都看到老师的讲义，触屏翻页，就像这个网站</li>
+						<li>技术：移动互联方向。HTML responsive + bluemix快速部署</li>
+						<li>你的准备：基础HTML5,javascript</li>
+					</ul>	 
+					<p> 部署一个javascript动态页面startup源码可参考Bluemix DeverloperWorks的Bluemix Recipe
+					<small><a href="https://developer.ibm.com/recipes/tutorials/dynamic-web-project-creation-and-deployment-on-bluemix/">部署动态网站到Bluemix</a></small>
+					</p>						
+				</section>
+				
+				<section id="idea2">	
+					<h3>创意2:基于情感的导师和选课助手</h3>
+					<p>分析一下</p>
+					 <ul>
+						<li>痛点：Visiting scholar我不了解，怎么能知道这个导师或者这门课适合我？</li>
+						<li>愿望：三观一致，能知道导师的性格脾气该多好</li>
+						<li>技术：认知计算方向。bluemix personal insight service</li>
+						<li>你的准备：bluemix service使用</li>
+					</ul>	
+				    <small>
+					可参考用外国友人做的小程序用twitter数据查看你与名人相似度<br>
+					<a href="https://github.com/watson-developer-cloud/your-celebrity-match">You and Celebrity Match Code in Github</a><br>
+				    Personal Insight不同语言源码开始包 <br>
+				   <a href="https://github.com/watson-developer-cloud/personality-insights-python">personal insight python</a></small>
+<br>
+					 <small><a href="https://github.com/watson-developer-cloud/personality-insights-nodejs">personal insight javascript</a></small>
+	<br>
+					 <small><a href="https://github.com/watson-developer-cloud/personality-insights-java">personal insight java</a></small>
+					
+				</section>
+				
+				<section id="idea3">	
+					<h3>创意3:学生压力检测和危机干预提示器</h3>
+					<p>分析一下</p>
+					 <ul>
+						<li>痛点：压力好大我抑郁了我焦虑了，谁能帮我？</li>
+						<li>愿望：机器帮我测一测压力值</li>
+						<li>技术：机器学习和社交方向。bluemix language classifier，conversation</li>
+						<li>你的准备：bluemix service使用，也许你想做成mobile chatbot。拉个心理系队友就更好了</li>
+					</ul>	
+						
+				    可查考源码startup包<br>
+				   
+					 <small><a href="https://github.com/watson-developer-cloud/natural-language-classifier-nodejs">natrual language classifier javascript</a></small>
+					
+				</section>
+			
+				<section id="idea4">	
+					<h3>创意4:天气与同学购买习惯的相关性</h3>
+					<h6>分析一下</h6>
+	                <ul>
+						<li>痛点：怎么从非结构化数据集之间发现新洞察？</li>
+						<li>愿望：拥有预测未来的能力，跟同学们错峰购物</li>
+						<li>技术：大数据分析。Bluemix weather service, 也许你想用spark／R，申请IBM powerAI环境</li>
+						<li>你的准备：</li>
+					</ul>	 
+					<p> 可参考<br>
+					<small>
+                   <a href="https://console.ng.bluemix.net/docs/services/Weather/weather_tutorials_samples.html#tutorials_samples">IBM Weather服务的调用格式教程和Demo</a>／
+					<a href="http://data.sjtu.edu.cn/">交大一卡通数据集</a>
+					
+					</small>
+					</p>						
+				</section>
+				
+		    <section id="idea5">	
+					<h3>创意5:跟外国留学生促进沟通</h3>
+					<h6>分析一下</h6>
+	                <ul>
+						<li>痛点：那个法国留学生编程挺厉害，可是口音让我发晕？</li>
+						<li>愿望：如果能用英文交流该多好</li>
+						<li>技术：自然语言理解。Bluemix text to speech, speech to text, natural language understanding (domain: academy)</li>
+						<li>你的准备：</li>
+					</ul>	 
+					<p> 可参考<br>
+					<small>
+                   <a href="https://developer.ibm.com/recipes/tutorials/use-ibm-watson-services-for-building-a-multilingual-chatbot/">做一个双语聊天机器人</a>
+					
+					</small>
+					</p>						
+				</section>
+			
+				
+				<section id="final">	
+					<h3>遇到问题怎么办？</h3>
+					<h6>我们是你坚强的技术后盾</h6>	<br>
+	                <ul>
+						<li>先debug一下，大致确定错误方位</li>
+						<li>再搜一下，碰到的问题别人多半也碰到过</li>
+						<li>也可以问问全球的专家： <a href="http://stackoverflow.com/">StackOverflow</a>
+					上的大拿多得去了</li>
+						<li>随时欢迎在群里和现场骚扰</li>
+					</ul>	 
+						<b>祝同学们玩的开心！</b>			
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true, //hide the control
+				progress: false, //hide the progress bar
+				history: false, //hide the history
+			    shuffle: false,  //Randomize the slides set to false
+				left: true,
+				slideNumber: false, //show slide number
+				loop:true,         //loop the slides
+				autoPlayMedia: false,
+				transition: 'convave', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					//show spearker notes
+					{ src: 'plugin/notes/notes.js', async: true },
+					// Slides jump
+					{ src: 'plugin/jump/jump.js', async: true}
+				
+				]
+			});
+			
+		</script>
+
+	</body>
+</html>
